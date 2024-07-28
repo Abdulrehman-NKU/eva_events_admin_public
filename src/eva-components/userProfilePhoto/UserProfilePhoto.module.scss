@@ -1,0 +1,22 @@
+.profile_image {
+  img {
+    object-fit: cover;
+  }
+}
+
+.demo_image {
+  // border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+  @media only screen and (max-width: 700px) {
+    margin-top: -3px;
+  }
+  svg {
+    width: 109%;
+    height: 109%;
+    color: lightgray;
+    border-radius: 50%;
+  }
+}

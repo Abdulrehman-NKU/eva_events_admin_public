@@ -1,0 +1,118 @@
+.view_schedule_main_contain {
+  width: 100%;
+  margin-top: 52px;
+  overflow: auto;
+  .date_text {
+    padding: 32px 0px 32px 0px;
+    p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000000;
+    }
+  }
+  .customers {
+    border-collapse: collapse;
+    width: 100%;
+
+    th,
+    td {
+      padding: 20px;
+      color: rgba(0, 0, 0, 1);
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      vertical-align: top;
+
+      .event_program_info {
+        p {
+          color: #262626;
+          font-family: 'Poppins', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        .company_name {
+          font-weight: 700;
+        }
+        .comments {
+          font-style: italic;
+        }
+      }
+
+      .cancel_link {
+        font-size: 12px;
+        margin-left: 12px;
+        text-decoration: underline;
+        color: #262626;
+      }
+
+      .button_contain {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        overflow: auto;
+        button {
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+          cursor: pointer;
+          border-radius: 6px;
+          border: 1px solid #eaeaea;
+          &:first-of-type {
+            background-color: #eed0a3;
+            padding: 14px 19px;
+          }
+          &:nth-of-type(2) {
+            background-color: #e8a2a2;
+            padding: 14px 31px;
+          }
+        }
+      }
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #ddd;
+    }
+
+    th {
+      padding-top: 17px;
+      padding-bottom: 17px;
+      color: rgba(0, 0, 0, 1);
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      border-top: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+    }
+  }
+}
+
+.company_name {
+  font-weight: 700;
+}
+
+.users-meetings-list-page {
+  .time-column {
+    width: 200px !important;
+  }
+}
